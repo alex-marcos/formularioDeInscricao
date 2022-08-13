@@ -1,0 +1,30 @@
+/*Css do Header*/
+
+header {
+    background: url(./assets/2352.jpg);
+}
+
+.logo {
+    padding: 3em;
+}
+
+.listatopo {
+    color: #FFFFFF; 
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 80%;
+    bottom: 5em;
+    width: 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.listatopo li {
+    padding:  0 0 0 1em;
+}
+
+/*Css do Main*/
+
+font-family: 'Red Hat Display', sans-serif;
+
+/*Css do footer */
