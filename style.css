@@ -1,7 +1,7 @@
 /*Css do Header*/
 
 header {
-    background: url(./assets/2352.jpg);
+    background: url(./assets/fundoheader.jpg);
 }
 
 .logo {
@@ -23,8 +23,161 @@ header {
     padding:  0 0 0 1em;
 }
 
+.astronauta1 {
+    height: 20em;
+}
+
 /*Css do Main*/
 
-font-family: 'Red Hat Display', sans-serif;
+main {
+    background: url(./assets/fundomain.jpg);
+    padding: 3em;
+}
+
+.container-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    background-color: #CCCCCC;
+    width: 20%;
+    position: relative;
+    left: 38%;
+    border-radius: 2em;
+}
+
+
+.container-a h1 {
+    font-size: 3em;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 1em;
+}
+
+.container-a label {
+    font-size: 1.8em;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.container-a input {
+    padding: 0.8em;
+    margin: 1em;
+    font-size: 1em;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 1em;
+    border: none;
+    width: 50%;
+}
+
+#email {
+    width: 75%;
+}
+
+#senha {
+    width: 75%;
+}
 
 /*Css do footer */
+
+footer {
+    background: url(./assets/fundofooter.jpg);
+}
+
+.astronauta2 {
+    height: 20em;
+}
+
+
+.logofooter {
+    padding: 2em;
+}
+
+#logofooter {
+	height: 6%;
+	padding: 11em 8em 3em;
+}
+
+.footerparte1 {
+	width: 40%;
+    position: relative;
+    top: 11em;
+    width: 41%;
+    margin: 0 0 0 3em;
+}
+
+.footerlocal{
+	display: flex;
+	align-items: center;
+	font-family: 'Red Hat Display', sans-serif;
+	color: #FFFFFF;
+
+}
+
+.footertelefone, .footeremail  {
+    position: relative;
+    left: 55%;
+    bottom: 5em;
+    display: flex;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+}
+
+.textofooter {
+	width: 45%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#imgfooter {
+	padding: 1em 1em 1em 3em;
+}
+
+.listafootera {
+	line-height: 2em;
+	width: 8%;
+    position: relative;
+    left: 50%;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	
+}
+
+.listafooterb {
+	line-height: 2em;
+	width: 7%;
+    position: relative;
+    left: 60%;
+    bottom: 12em;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	
+}
+
+.listafootera li {
+	line-height: 3em;
+}
+
+.listafooterb li {
+	line-height: 3em;
+}
+
+.redeslogo {
+	width: 13%;
+    position: relative;
+    left: 79%;
+    bottom: 22em;
+}
+
+
+#logoface, #logotwitter, #logoinsta {
+	height: 3em;
+}
+
+
+.copyright {
+	text-align: end;
+	padding: 3em;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+}
