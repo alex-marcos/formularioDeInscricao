@@ -25,6 +25,9 @@ header {
 
 .astronauta1 {
     height: 20em;
+    position: absolute;
+    left: 42%;
+    bottom: 39em;
 }
 
 /*Css do Main*/
@@ -34,12 +37,12 @@ main {
     padding: 3em;
 }
 
-.container-a {
+#modal {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3em;
-    background-color: #CCCCCC;
+    background-color: #250045;
     width: 20%;
     position: relative;
     left: 38%;
@@ -47,18 +50,20 @@ main {
 }
 
 
-.container-a h1 {
+#modal h1 {
     font-size: 3em;
     font-family: 'Red Hat Display', sans-serif;
     padding: 1em;
+    color: #FFFFFF;
 }
 
-.container-a label {
+#modal label {
     font-size: 1.8em;
     font-family: 'Red Hat Display', sans-serif;
+    color: #FFFFFF;
     
 }
-.container-a input {
+#modal input {
     padding: 0.8em;
     margin: 1em;
     font-size: 1em;
@@ -66,6 +71,7 @@ main {
     border-radius: 1em;
     border: none;
     width: 50%;
+    color: #FFFFFF;
 }
 
 #email {
@@ -76,20 +82,45 @@ main {
     width: 75%;
 }
 
+#logar {
+    background: #11C1F3;
+   
+}
+
+#logar:hover {
+    background: #0f5fd6;
+}
+
+#logar:active {
+    background: #6717cf;
+}
+
+#modal.animar {
+    background: #000000;
+}
+
+/*CSS animação da div container-a */
+
+
+@keyframes slide {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}   
+
+
+
 /*Css do footer */
 
 footer {
     background: url(./assets/fundofooter.jpg);
-}
-
-.astronauta2 {
-    height: 20em;
+    
 }
 
 
-.logofooter {
-    padding: 2em;
-}
 
 #logofooter {
 	height: 6%;
@@ -99,31 +130,20 @@ footer {
 .footerparte1 {
 	width: 40%;
     position: relative;
-    top: 11em;
-    width: 41%;
-    margin: 0 0 0 3em;
+    top: 10em;
+    padding: 0 0 0 5em;
 }
 
-.footerlocal{
+.footerlocal, .footertelefone, .footeremail {
 	display: flex;
-	align-items: center;
-	font-family: 'Red Hat Display', sans-serif;
-	color: #FFFFFF;
-
-}
-
-.footertelefone, .footeremail  {
-    position: relative;
-    left: 55%;
-    bottom: 5em;
-    display: flex;
 	align-items: center;
 	font-family: 'Open Sans', sans-serif;
 	color: #FFFFFF;
+
 }
 
 .textofooter {
-	width: 45%;
+	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -174,10 +194,21 @@ footer {
 	height: 3em;
 }
 
+.listafooter {
+	height: 9%;
+} 
 
 .copyright {
 	text-align: end;
 	padding: 3em;
 	font-family: 'Open Sans', sans-serif;
 	color: #FFFFFF;
+    
+}
+
+.astronauta2 {
+    height: 16em;
+    position: absolute;
+    left: 44%;
+    top: 75em;
 }
