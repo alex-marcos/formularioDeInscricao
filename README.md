@@ -1,5 +1,6 @@
 <div align='center'>
 # formularioDeInscricao
+  </br>
 Uma página na web onde tem um formulário para inscrição, com animação de carregamento e animação do próprio formulário.
 </div>
 
