@@ -36,8 +36,19 @@
             <label for="telefone">Telefone</label>
             <input type="tel" id="telefone"  class="input-padrão" required placeholder="(xx) xxxxx-xxxx">
 
-            <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem"  class="input-padrão" required></textarea>
+
+            <fieldset>
+              <legend class="gen">Gênero</legend>
+              <select class="gencaixa">
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+              </select>
+            </fieldset>
+    
+            <label class="checkbox"><input id="checkbox" type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+    
+            <input  type="submit" value="Enviar formulário" class="enviar">
 
 </main>
 

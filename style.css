@@ -232,15 +232,17 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     color: #FFFFFF;
     font-size: 1.4em;
     background: #250045;
     width: 30%;
+    border-radius: 2em;
 } 
 
 .formulario label {
     padding: 1em 0 1em;
+    margin: 1em 0 0 0;
 }
 
 .formulario input {
@@ -249,5 +251,59 @@ footer {
     width: 45%;
     font-size: 15px;
     border-radius: 2em;
+    margin: 0 0 1em 0;
 }
 
+.gencaixa {
+    margin: 1em 0 0 0;
+    font-size: 21px;
+    width: 141%;
+    text-align: center;
+    border-radius: 2em;
+    padding: 0.3em;
+    border: none;
+}
+
+/* Animação do formulario */
+
+.formulario {
+   
+    opacity: 0;
+    transform: translateX(-3em);
+}
+
+.formulario {
+   animation: slide .3s forwards; 
+
+}
+
+#checkbox {
+    width: 10%;
+}
+
+.checkbox {
+    font-size: 25px;
+}
+
+.enviar {
+    background: #7a9ccf;
+    color: #FFFFFF;
+    transition: 00.6s;
+}
+
+.enviar:hover {
+    background: #5286d4;
+}
+
+.enviar:active {
+    background: #0f5fd6;
+}
+
+
+@keyframes slide {
+   
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}   
