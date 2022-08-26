@@ -1,7 +1,7 @@
 /*Css do Header*/
 
 header {
-    background: url(./assets/fundoheader.jpg);
+    background: url(../assets/fundoheader.jpg);
 }
 
 .logo {
@@ -40,7 +40,7 @@ header {
 /*Css do Main*/
 
 main {
-    background: url(./assets/fundomain.jpg);
+    background: url(../assets/fundomain.jpg);
     padding: 3em;
 }
 
@@ -59,7 +59,8 @@ main {
 }
 
 #modal.animar {
-   animation: slide .3s forwards; 
+   animation: slide .3s forwards;
+   animation-delay: 0.8s; 
 
 }
 
@@ -107,8 +108,9 @@ main {
     width: 75%;
 }
 
-#logar {
+#modal #logar {
     background: #11C1F3;
+    margin: 5em 0 0;
    
 }
 
@@ -121,13 +123,33 @@ main {
 }
 
 
+#load {
+    width: 20px;
+    height: 20px;
+    border: 10px solid;
+    border-radius: 50%;
+    border-top-color: transparent;
+    position: absolute;
+    left: 49.5%;
+    bottom: 15em;
+    color: #FFFFFF;
+    animation: load .6s linear infinite;
+    
+}
+
+@keyframes load {
+    to {
+        transform: rotate(360deg);
+       
+    }
+}
 
 
 
 /*Css do footer */
 
 footer {
-    background: url(./assets/fundofooter.jpg);
+    background: url(../assets/fundofooter.jpg);
     
 }
 
@@ -270,10 +292,12 @@ footer {
    
     opacity: 0;
     transform: translateX(-3em);
+    
 }
 
 .formulario {
    animation: slide .3s forwards; 
+   animation-delay: 0.8s;
 
 }
 
@@ -305,5 +329,6 @@ footer {
     to {
         opacity: 1;
         transform: translateX(0);
+        
     }
 }   
