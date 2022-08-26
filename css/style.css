@@ -32,9 +32,9 @@ header {
 
 .astronauta1 {
     height: 20em;
-    position: absolute;
-    left: 42%;
-    bottom: 39em;
+    position: relative;
+    left: 27%;
+    top: 10em;
 }
 
 /*Css do Main*/
@@ -96,7 +96,7 @@ main {
     font-family: 'Red Hat Display', sans-serif;
     border-radius: 1em;
     border: none;
-    width: 50%;
+    width: 80%;
     color: #FFFFFF;
 }
 
@@ -111,15 +111,16 @@ main {
 #modal #logar {
     background: #11C1F3;
     margin: 5em 0 0;
+    transition: 00.3s;
    
 }
 
-#logar:hover {
-    background: #0f5fd6;
+#modal #logar:hover {
+    background: #054bb4;
 }
 
-#logar:active {
-    background: #6717cf;
+#modal #logar:active {
+    background: #1d06e7ee;
 }
 
 
@@ -129,18 +130,27 @@ main {
     border: 10px solid;
     border-radius: 50%;
     border-top-color: transparent;
-    position: absolute;
+    position: relative;
     left: 49.5%;
-    bottom: 15em;
+    bottom: 10em;
     color: #FFFFFF;
-    animation: load .6s linear infinite;
+    opacity: 0;
+    transition: 00.6s;
+   
     
 }
 
-@keyframes load {
+#load.animload  {
+    animation:animload .6s linear infinite;
+    opacity: 1;
+    
+}
+
+@keyframes animload {
     to {
         transform: rotate(360deg);
-       
+
+        
     }
 }
 
@@ -241,9 +251,9 @@ footer {
 
 .astronauta2 {
     height: 16em;
-    position: absolute;
+    position: relative;
     left: 44%;
-    top: 75em;
+    bottom: 10em;
 }
 
 
