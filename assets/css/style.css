@@ -1,7 +1,7 @@
 /*Css do Header*/
 
 header {
-    background: url(../assets/fundoheader.jpg);
+    background: url(../imagens/fundoheader.jpg);
 }
 
 .logo {
@@ -40,7 +40,7 @@ header {
 /*Css do Main*/
 
 main {
-    background: url(../assets/fundomain.jpg);
+    background: url(../imagens/fundomain.jpg);
     padding: 3em;
 }
 
@@ -159,7 +159,7 @@ main {
 /*Css do footer */
 
 footer {
-    background: url(../assets/fundofooter.jpg);
+    background: url(../imagens/fundofooter.jpg);
     
 }
 
