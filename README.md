@@ -12,7 +12,7 @@ Esse projeto tem como por propósito os seguintes objetivos:
 
 <h2 align="centre">Gif do Resultado</h2>
 
-<img align="center" alt="Design do site" height="300" width="500" src="./design/formulario.gif">
+<img align="center" alt="Design do site" height="300" width="500" src="./assets/design/formulario.gif">
 
 ### Todas as imagens e o design do site foi escolhido por mim
 
