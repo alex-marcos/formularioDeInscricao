@@ -30,4 +30,4 @@ Pretendi também trabalhar um pouco da área de design, uma habilidade que tamb�
 
 <h3 align="centre">Link para o projeto</h3>
 
-https://laetuus.github.io/formularioDeInscricao/index.html
+https://alex-marcos.github.io/formularioDeInscricao/index.html
